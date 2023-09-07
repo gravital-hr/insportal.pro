@@ -235,6 +235,12 @@
 .header-root-class-name4 {
   margin-bottom: 0px;
 }
+.header-root-class-name5 {
+  margin-bottom: 0px;
+}
+.header-root-class-name6 {
+  margin-bottom: 0px;
+}
 @media(max-width: 991px) {
   .header-header {
     max-width: 1320px;
@@ -291,6 +297,12 @@
     margin-bottom: 0px;
   }
   .header-root-class-name4 {
+    margin-bottom: 0px;
+  }
+  .header-root-class-name5 {
+    margin-bottom: 0px;
+  }
+  .header-root-class-name6 {
     margin-bottom: 0px;
   }
 }
