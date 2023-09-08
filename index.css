@@ -469,33 +469,6 @@
   }
 }
 
-.secondary-button-container {
-  display: flex;
-  position: relative;
-}
-.secondary-button-button {
-  color: var(--dl-color-gray-white);
-  box-shadow: 0 1px 3px 0 rgba(0,0,0,0.1),0 1px 2px 0 rgba(0,0,0,0.06);
-  transition: 0.3s;
-  line-height: 1;
-  padding-top: var(--dl-space-space-halfunit);
-  border-width: 0px;
-  padding-left: var(--dl-space-space-unit);
-  padding-right: var(--dl-space-space-unit);
-  padding-bottom: var(--dl-space-space-halfunit);
-  text-transform: uppercase;
-  background-color: var(--dl-color-secondary-300);
-}
-.secondary-button-button:hover {
-  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1),0 2px 4px -1px rgba(0,0,0,0.06);
-}
-.secondary-button-button:active {
-  background-color: var(--dl-color-secondary-100);
-}
-.secondary-button-root-class-name {
-  margin-top: var(--dl-space-space-unitandhalf);
-}
-
 .footer-container {
   width: 100%;
   display: flex;
@@ -1825,6 +1798,7 @@
   flex: 0 0 auto;
   width: 100%;
   display: flex;
+  position: relative;
   margin-top: var(--dl-space-space-doubleunit);
   margin-bottom: var(--dl-space-space-doubleunit);
   flex-direction: row;
@@ -1832,15 +1806,15 @@
 }
 .home-contact {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: center;
 }
-.home-form {
+.home-form-container {
   flex: 0 0 auto;
-  width: 80%;
   display: flex;
   padding: var(--dl-space-space-twoandhalf);
-  max-width: 700px;
+  max-width: 600px;
   margin-top: var(--dl-space-space-doubleunit);
   align-items: flex-start;
   border-radius: var(--dl-radius-radius-radius50);
@@ -1922,6 +1896,15 @@
   margin-top: var(--dl-space-space-unit);
   align-items: flex-start;
   flex-direction: column;
+}
+.home-button {
+  color: var(--dl-color-gray-white);
+  line-height: 1.25;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-unit);
+  padding-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-secondary-300);
 }
 .home-image14 {
   top: auto;
@@ -2384,7 +2367,7 @@
     padding-left: 32px;
     padding-right: 32px;
   }
-  .home-form {
+  .home-form-container {
     width: 100%;
   }
 }

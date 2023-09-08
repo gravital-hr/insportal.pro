@@ -281,7 +281,7 @@
                 ></path>
               </svg>
               <span class="home-text11 TextMD">Обучени лица</span>
-              <h1 class="home-text12 Text2XL">2,2241</h1>
+              <h1 class="home-text12 Text2XL">2,241</h1>
             </div>
             <div class="home-stat1">
               <svg viewBox="0 0 1024 1024" class="home-icon09">
@@ -769,41 +769,51 @@
               <h6 class="label-text"><span>ПИШЕТЕ НИ</span></h6>
             </div>
             <div class="home-contact">
-              <div class="home-form">
-                <h1 class="home-text43">Искaте да работим заедно?</h1>
-                <span class="home-text44 TextXL">
-                  Попълнете формата и ние ще се свържем със възможно най-бързо
-                </span>
-                <span class="home-text45 TextXS">Име</span>
-                <input
-                  type="text"
-                  placeholder="Име и Фамилия"
-                  class="home-textinput TextSM input"
-                />
-                <span class="home-text46 TextXS">Емейл</span>
-                <input
-                  type="text"
-                  placeholder="Email"
-                  class="home-textinput1 TextSM input"
-                />
-                <span class="home-text47 TextXS">Съобщение</span>
-                <textarea
-                  cols="80"
-                  rows="4"
-                  disabled="true"
-                  placeholder="Напишете вашето съобщение"
-                  class="home-textarea TextSM textarea"
-                ></textarea>
-                <div class="home-container46">
-                  <div
-                    class="secondary-button-container secondary-button-root-class-name"
-                  >
-                    <button class="secondary-button-button TextXS button">
-                      <span>Send message</span>
+              <form
+                target="_blank"
+                method="POST"
+                action="https://formsubmit.co/support@ecompany.pro"
+              >
+                <div class="home-form-container">
+                  <h1 class="home-text43">Искaте да работим заедно?</h1>
+                  <span class="home-text44 TextXL">
+                    Попълнете формата и ние ще се свържем със възможно най-бързо
+                  </span>
+                  <span class="home-text45 TextXS">Име</span>
+                  <input
+                    type="text"
+                    placeholder="Име и Фамилия"
+                    name="name"
+                    class="home-textinput TextSM input"
+                  />
+                  <span class="home-text46 TextXS">Емейл</span>
+                  <input
+                    type="email"
+                    placeholder="email"
+                    class="home-textinput1 TextSM input"
+                  />
+                  <span class="home-text47 TextXS">Съобщение</span>
+                  <textarea
+                    cols="80"
+                    rows="4"
+                    placeholder="Напишете вашето съобщение"
+                    name="text"
+                    type="message"
+                    class="home-textarea TextSM textarea"
+                  ></textarea>
+                  <input
+                    type="hidden"
+                    placeholder="placeholder"
+                    name="_next"
+                    value="https://insportal.pro/thanks.html"
+                  />
+                  <div class="home-container46">
+                    <button type="submit" class="home-button TextXS">
+                      ИЗПРАТИ СЪОБЩЕНИЕ
                     </button>
                   </div>
                 </div>
-              </div>
+              </form>
             </div>
           </div>
           <img alt="image" src="public/gray-vector.svg" class="home-image14" />
