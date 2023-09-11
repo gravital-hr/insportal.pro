@@ -1050,6 +1050,7 @@
 }
 .home-steps {
   width: 100%;
+  margin: auto;
   display: flex;
   padding: 48px;
   max-width: 1400px;
@@ -1113,7 +1114,6 @@
   border-radius: var(--dl-radius-radius-round);
   flex-direction: row;
   justify-content: center;
-  background-color: #f5f5f5ff;
 }
 .home-image05 {
   height: 70%;
@@ -1431,6 +1431,7 @@
 }
 .home-steps1 {
   width: 100%;
+  margin: auto;
   display: flex;
   padding: 48px;
   max-width: 1400px;
@@ -1490,7 +1491,6 @@
   border-radius: var(--dl-radius-radius-round);
   flex-direction: row;
   justify-content: center;
-  background-color: #f5f5f5ff;
 }
 .home-image10 {
   height: 70%;
